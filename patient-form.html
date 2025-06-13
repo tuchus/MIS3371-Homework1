@@ -142,25 +142,36 @@ Description: Patient registration form for cat centric physical therapy website.
           <textarea name="symptoms" rows="3" cols="50" required></textarea>
         </td>
       </tr>
-      <tr>
-        <td>Past Illnesses:</td>
-        <td colspan="5">
-          <input type="checkbox" name="illness" value="chickenpox"> Chickenpox
-          <input type="checkbox" name="illness" value="measles"> Measles
-          <input type="checkbox" name="illness" value="covid"> COVID-19
-          <input type="checkbox" name="illness" value="smallpox"> Smallpox
-          <input type="checkbox" name="illness" value="tetanus"> Tetanus
-        </td>
-      </tr>
-      <tr>
-        <td>Gender:</td>
-        <td colspan="3">
-          <input type="radio" name="gender" value="male"> Male
-          <input type="radio" name="gender" value="female"> Female
-          <input type="radio" name="gender" value="other"> Other
-        </td>
-      </tr>
-      <tr>
+	<tr>
+	  <td>Past Illnesses:</td>
+	  <td colspan="5">
+	    <label><input type="checkbox" name="illness" value="chickenpox"> Chickenpox</label>
+	    <label><input type="checkbox" name="illness" value="measles"> Measles</label>
+	    <label><input type="checkbox" name="illness" value="covid"> COVID-19</label>
+	    <label><input type="checkbox" name="illness" value="smallpox"> Smallpox</label>
+	    <label><input type="checkbox" name="illness" value="tetanus"> Tetanus</label>
+	  </td>
+	</tr>
+	<tr>
+	  <td>Gender:</td>
+	  <td colspan="5">
+	    <label><input type="radio" name="gender" value="male"> Male</label>
+	    <label><input type="radio" name="gender" value="female"> Female</label>
+	    <label><input type="radio" name="gender" value="other"> Other</label>
+	  </td>
+	</tr>
+	<tr>
+	  <td>Vaccinated:</td>
+	  <td colspan="2">
+	    <label><input type="radio" name="vaccinated" value="yes"> Yes</label>
+	    <label><input type="radio" name="vaccinated" value="no"> No</label>
+	  </td>
+	  <td>Has Insurance:</td>
+	  <td colspan="2">
+	    <label><input type="radio" name="insurance" value="yes"> Yes</label>
+	    <label><input type="radio" name="insurance" value="no"> No</label>
+	  </td>
+	</tr>
         <td>Vaccinated:</td>
         <td>
           <input type="radio" name="vaccinated" value="yes"> Yes
