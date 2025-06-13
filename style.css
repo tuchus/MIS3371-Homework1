@@ -84,3 +84,8 @@ a {
 a:visited {
   color: #993399;
 }
+
+label {
+  display: inline-block;
+  margin-right: 15px;
+}
