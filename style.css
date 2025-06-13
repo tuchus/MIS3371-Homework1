@@ -32,7 +32,7 @@ h1 {
 }
 
 #header {
-  background-color: #d4c513;
+  background-color: #1af0c9;
   padding: 15px;
   text-align: center;
   border-bottom: 2px solid #333;
@@ -81,7 +81,7 @@ input[type="reset"]:hover {
 }
 
 #footer {
-  background-color: #d4c513;
+  background-color: #1af0c9;
   text-align: center;
   padding: 10px;
   border-top: 2px solid #333;
